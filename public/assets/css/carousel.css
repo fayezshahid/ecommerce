@@ -1,0 +1,25 @@
+.carousel-indicators{
+    margin-bottom: 0px;
+}
+ol.carousel-indicators li, ol.carousel-indicators li.active{
+    width: 25px;
+    height: 25px;
+    border: #979797;
+    border-radius: 50% !important;
+    margin-right: 7px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+ol.carousel-indicators li.active{
+    width: 23px;
+    height: 23px;
+    border: 1px solid #979797;
+    border-radius: 50%;
+}
+ol.carousel-indicators li:hover{
+    width: 23px;
+    height: 23px;
+    border: 1px solid #979797;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #9ecaed;
+}
